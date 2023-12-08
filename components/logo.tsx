@@ -7,8 +7,8 @@ const Logo = () => {
 				src="/logo.png"
 				alt="logo"
 				className="block object-contain"
-				height="260"
-				width="260"
+				height="280"
+				width="280"
 			/>
 		</div>
 	);
