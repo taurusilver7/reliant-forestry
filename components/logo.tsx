@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Logo = () => {
 	return (
-		<div className="hidden md:flex items-center gap-x-2">
+		<div className="flex items-center gap-x-2">
 			<Image
 				src="/logo.png"
 				alt="logo"
-				className="block"
-				height="250"
-				width="250"
+				className="block object-contain"
+				height="260"
+				width="260"
 			/>
 		</div>
 	);
