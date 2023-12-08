@@ -1,5 +1,7 @@
 function App() {
-	return <>Reliant Forestry</>;
+
+  
+	return <div className="app bg-gray-900">Reliant Forestry</div>;
 }
 
 export default App;
