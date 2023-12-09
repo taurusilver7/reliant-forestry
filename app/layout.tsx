@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import {  Ubuntu } from "next/font/google";
+import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -34,7 +34,9 @@ export default function RootLayout({
 			style={{ scrollBehavior: "smooth" }}
 			suppressHydrationWarning
 		>
-			<body className={cn(ubuntu.className, "h-full bg-slate-200")}>{children}</body>
+			<body className={cn(inter.className, "h-full bg-slate-200")}>
+				{children}
+			</body>
 		</html>
 	);
 }

@@ -5,21 +5,21 @@ import List from "./list";
 
 const products: Array<ProductType> = [
 	{
-		name: "Weight Training Classes",
+		name: "Southern Yellow Pine",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"Premiere supplier of Exported-quality southern Yellow Pine logs. #1 in South-East United States.",
 		image: "/forestry.png",
 	},
 	{
-		name: "Yoga Classes",
+		name: "White Pine",
 		description: "Lorem ipsum dolor sit amet",
-		image: "/hero.jpeg",
+		image: "/pine-wood.jpg",
 	},
 	{
 		name: "Weight Training Classes",
 		description:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		image: "/forestry.png",
+		image: "/pine.jpg",
 	},
 ];
 
@@ -27,7 +27,7 @@ type Props = {
 	setSection: (value: SelectedSection) => void;
 };
 
-const Products = ({setSection}: Props) => {
+const Products = ({ setSection }: Props) => {
 	return (
 		<section id="businessareas" className="py-28 w-full">
 			<div className="mx-auto md:w-3/5">

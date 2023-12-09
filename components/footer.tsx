@@ -11,7 +11,7 @@ const Footer = () => {
 				<div className="mt-16 basis-1/3 md:mt-0">
 					<Logo type={true} />
 					<p className="my-5">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Premiere supplier of exported southern-yellow pine wood.
 					</p>
 				</div>
 
