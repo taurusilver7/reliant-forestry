@@ -1,12 +1,16 @@
 "use client";
 
 import { SelectedSection } from "@/types";
+import { Input } from "./ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "./ui/button";
 
 type Props = {
 	setSection: (value: SelectedSection) => void;
 };
 
-const Contact = ({setSection}: Props) => {
+const Contact = ({ setSection }: Props) => {
 	return (
 		<div id="contactus" className="mb-5 w-5/6 mx-auto pt-24 pb-32">
 			<div className="mx-auto md:w-3/5">
@@ -37,10 +41,37 @@ const Contact = ({setSection}: Props) => {
 					</div>
 				</div>
 
-				<div className="mt-10 basis-3/5 md:mt-0">
-					<form>
-						input form
-						<input type="text" className="" />
+				<div className="mt-10 basis-3/5 md:mt-0 border border-lime-400 p-4 rounded-lg">
+					<form target="_blank" method="POST" className="text-lg">
+						<Input
+							type="text"
+							placeholder="Name"
+							className="mb-5 text-lg p-2 placeholder-lime-400"
+						/>
+						<Input
+							type="email"
+							placeholder="Email address"
+							className="text-lg p-2"
+						/>
+
+						<div className="mt-5">
+							<Textarea
+								placeholder="Type your message here."
+								id="message-2"
+								className="text-lg"
+							/>
+							<p className="text-sm p-1 text-muted-foreground">
+								Your message will be copied to the support team.
+							</p>
+						</div>
+
+						<Button
+							type="submit"
+							variant="link"
+							className="bg-emerald-400 px-4"
+						>
+							SUBMIT
+						</Button>
 					</form>
 				</div>
 			</div>

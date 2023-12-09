@@ -14,7 +14,7 @@ const About = ({ setSection }: Props) => {
 	return (
 		<section
 			id="aboutus"
-			className="flex flex-col items-center justify-between mx-auto w-5/6 md:mb-10 py-20"
+			className="flex flex-col items-center justify-between mx-auto w-5/6 md:my-6 py-20"
 		>
 			<div className="flex flex-col lg:flex-row items-center gap-8">
 				<div className="relative justify-center lg:flex-1 w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:h-[400px] md:w-[400px] saturate-0 hover:saturate-150 transition-all duration-300">

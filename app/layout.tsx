@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Playfair, Ubuntu } from "next/font/google";
+import {  Ubuntu } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
-const playfair = Playfair({ subsets: ["latin"] });
 const ubuntu = Ubuntu({
 	subsets: ["latin"],
 	weight: ["300", "400", "500", "700"],
