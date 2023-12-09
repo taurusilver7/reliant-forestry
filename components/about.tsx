@@ -9,10 +9,10 @@ const About = () => {
 			id="about-us"
 			className="flex flex-col items-center justify-between mx-auto w-5/6 mb-10"
 		>
-			<div className="flex flex-col w-auto lg:flex-row items-center gap-8">
-				<div className="relative md:w-[450px] md:h-[450px] w-[500px] h-[500px]">
+			<div className="flex flex-col lg:flex-row items-center gap-8">
+				<div className="relative justify-center lg:flex-1 w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:h-[400px] md:w-[400px]">
 					<Image
-						src="/forestry.png"
+						src="/truck.jpg"
 						alt="about"
 						className="object-cover"
 						fill

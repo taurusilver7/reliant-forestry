@@ -30,7 +30,7 @@ const Navbar = () => {
 	const abvMedScrn = useMediaQuery("(min-width: 1080px)");
 	return (
 		<nav id="home">
-			<div className="z-30 backdrop-blur-sm fixed top-0 flex justify-between items-center w-full p-1 px-6 py-4">
+			<div className="z-30 backdrop-blur-sm bg-transparent fixed top-0 flex justify-between items-center w-full p-1 px-6 py-4 mb-2">
 				{/* left */}
 				<Logo />
 

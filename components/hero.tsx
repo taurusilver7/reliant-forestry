@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const Hero = () => {
 	return (
-		<main className="flex">
-			<div className="relative w-full justify-center flex items-center h-screen">
+		<main className="flex h-screen">
+			<div className="relative w-full justify-center flex items-center">
 				<Image
 					src="/hero.jpeg"
-					layout="fill"
+					fill
 					alt="hero"
 					priority
-					objectFit="cover"
+					className="object-cover"
 				/>
 				<div className="z-10 max-w-screen-lg px-4 lg:px-0">
 					<div className="flex flex-col items-center gap-y-6 text-center p-6">
