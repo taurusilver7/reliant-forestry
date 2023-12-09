@@ -3,3 +3,10 @@ export interface ProductType {
 	description?: string;
 	image: string;
 }
+
+export enum SelectedSection {
+	Home = "home",
+	AboutUs = "aboutus",
+	Business = "businessareas",
+	ContactUs = "contactus",
+}
