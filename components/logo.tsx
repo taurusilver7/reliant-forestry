@@ -11,7 +11,7 @@ const Logo = ({ type }: LogoProps) => {
 			<Image
 				src="/logo-dark.png"
 				alt="logo"
-				className={cn(" hidden object-contain", type && "block")}
+				className={cn("hidden object-contain", type && "block")}
 				height="250"
 				width="250"
 			/>
