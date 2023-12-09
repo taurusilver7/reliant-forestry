@@ -14,10 +14,10 @@ const List = ({ name, description, image }: Props) => {
   whitespace-normal bg-lime-100 text-center
   opacity-0 transition duration-500 hover:opacity-90`;
 	return (
-		<li className="relative mx-3 inline-block h-[380px] w-[400px]">
+		<li className="relative mx-3 inline-block h-[380px] w-[400px] cursor-pointer">
 			<div className={overlayStyles}>
-				<p className="text-2xl">{name}</p>
-				<p className="mt-5">{description}</p>
+				<p className="text-2xl font-semibold">{name}</p>
+				<p className="mt-5 text-lg">{description}</p>
 			</div>
 			<Image fill className="object-cover" src={image} alt={`${name}`} />
 		</li>

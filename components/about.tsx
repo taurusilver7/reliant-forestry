@@ -2,21 +2,30 @@
 
 import Image from "next/image";
 import { Button } from "./ui/button";
+import { SelectedSection } from "@/types";
+import NavLink from "./nav-link";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const About = () => {
+type Props = {
+	setSection: (value: SelectedSection) => void;
+};
+
+const About = ({ setSection }: Props) => {
 	return (
 		<section
-			id="about-us"
-			className="flex flex-col items-center justify-between mx-auto w-5/6 mb-10"
+			id="aboutus"
+			className="flex flex-col items-center justify-between mx-auto w-5/6 md:mb-10 py-20"
 		>
 			<div className="flex flex-col lg:flex-row items-center gap-8">
-				<div className="relative justify-center lg:flex-1 w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:h-[400px] md:w-[400px]">
-					<Image
-						src="/truck.jpg"
-						alt="about"
-						className="object-cover"
-						fill
-					/>
+				<div className="relative justify-center lg:flex-1 w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:h-[400px] md:w-[400px] saturate-0 hover:saturate-150 transition-all duration-300">
+					<div className="flex hover:shadow-md border-4 border-orange-500">
+						<Image
+							src="/truck.jpg"
+							alt="about"
+							className="object-cover"
+							fill
+						/>
+					</div>
 				</div>
 
 				<div className="flex flex-col items-start lg:w-[50%]">
@@ -43,7 +52,12 @@ const About = () => {
 					</div>
 
 					<div className="p-2">
-						<Button>Get in touch</Button>
+						<AnchorLink
+							className="text-sm font-bold text-lime-400 underline"
+							href={`#${SelectedSection.ContactUs}`}
+						>
+							<Button>Get in Touch</Button>
+						</AnchorLink>
 					</div>
 				</div>
 			</div>

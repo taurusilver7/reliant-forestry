@@ -1,8 +1,13 @@
+import { SelectedSection } from "@/types";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Hero = () => {
+type Props = {
+	setSection: (value: SelectedSection) => void;
+};
+
+const Hero = ({ setSection }: Props) => {
 	return (
 		<main className="flex h-screen">
 			<div className="relative w-full justify-center flex items-center">
@@ -24,7 +29,7 @@ const Hero = () => {
 
 						<div className="flex text-neutral-100">
 							<a
-								href="/"
+								href="mailto:sales@reliantforestry.com"
 								className="-m-1.5 p-1.5 rounded-full border-2 py-2 px-4 text-white ring-offset-gray-700 hover:bg-gray-800/90 ring-orange-500 border-orange-500 bg-none transition-all duration-300  focus:outline-none focus:ring-2 focus:ring-offset-2 sm:-m-3 sm:text-base"
 							>
 								Get in touch

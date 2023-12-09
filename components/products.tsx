@@ -1,6 +1,6 @@
 "use client";
 
-import { ProductType } from "@/types";
+import { ProductType, SelectedSection } from "@/types";
 import List from "./list";
 
 const products: Array<ProductType> = [
@@ -23,14 +23,18 @@ const products: Array<ProductType> = [
 	},
 ];
 
-const Products = () => {
+type Props = {
+	setSection: (value: SelectedSection) => void;
+};
+
+const Products = ({setSection}: Props) => {
 	return (
-		<section id="business-areas" className="py-32 w-full">
+		<section id="businessareas" className="py-28 w-full">
 			<div className="mx-auto md:w-3/5">
 				<h1 className="basis-3/5 text-3xl font-bold text-center">
 					Our Products
 				</h1>
-				<p className="py-5">
+				<p className="py-5 text-lg">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
 					sed tempora fugit qui quam reprehenderit impedit ipsum? Quae,
 					quas veritatis tempore cum, molestias consequuntur numquam
