@@ -34,7 +34,7 @@ export default function RootLayout({
 			style={{ scrollBehavior: "smooth" }}
 			suppressHydrationWarning
 		>
-			<body className={cn(inter.className, "h-full bg-slate-200")}>
+			<body className={cn(ubuntu.className, "h-full bg-slate-200")}>
 				{children}
 			</body>
 		</html>

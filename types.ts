@@ -8,5 +8,6 @@ export enum SelectedSection {
 	Home = "home",
 	AboutUs = "aboutus",
 	Business = "businessareas",
+	Careers = "careers",
 	ContactUs = "contactus",
 }
