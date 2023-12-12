@@ -2,7 +2,6 @@
 
 import { SelectedSection } from "@/types";
 import { Input } from "./ui/input";
-import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "./ui/button";
 import { useForm } from "react-hook-form";
@@ -28,13 +27,12 @@ const Contact = ({ setSection }: Props) => {
 		<div id="contactus" className="mb-5 w-5/6 mx-auto pt-24 pb-32">
 			<div className="mx-auto md:w-3/5">
 				<h1 className="basis-3/5 text-3xl font-bold text-center">
-					Get in Touch
+					Get in Touch!
 				</h1>
 				<p className="my-5 text-lg">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
-					sed tempora fugit qui quam reprehenderit impedit ipsum? Quae,
-					quas veritatis tempore cum, molestias consequuntur numquam
-					aperiam voluptate, vero facere corporis?
+					Whether you seek premium timber, solutions, partnership inquiries
+					<br />Reach out to Reliant Forestry. Let's build a sustainable future
+					together.
 				</p>
 			</div>
 
@@ -48,7 +46,7 @@ const Contact = ({ setSection }: Props) => {
 					<p className="uppercase underline font-bold">Address:</p>
 					<div className="flex flex-col text-xl items-start justify-center">
 						<p className="font-medium">Reliant Forestry</p>
-						<p>211 Satoriway unit-305</p>
+						<p>211 Satori way unit-305</p>
 						<p>John&apos;s Island</p>
 						<p>South Carolina, USA - 29455</p>
 						<br />

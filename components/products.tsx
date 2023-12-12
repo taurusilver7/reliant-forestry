@@ -7,19 +7,26 @@ const products: Array<ProductType> = [
 	{
 		name: "Southern Yellow Pine",
 		description:
-			"Premiere supplier of Exported-quality southern Yellow Pine logs. #1 in South-East United States.",
+			"Premiere supplier of Export-quality Southern Yellow Pine logs. #1 in South-East United States.",
 		image: "/forestry.png",
 	},
 	{
-		name: "White Pine",
-		description: "Lorem ipsum dolor sit amet",
-		image: "/pine-wood.jpg",
+		name: "Eastern White Pine",
+		description:
+			"Meticulously sourced and crafted Eastern White Pine of Timeless allure and finest Craftmanship.",
+		image: "/timber5.jpeg",
 	},
 	{
-		name: "Weight Training Classes",
+		name: "Classic Red Oak",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
 		image: "/pine.jpg",
+	},
+	{
+		name: "Logistics",
+		description:
+			"Providing International Timber processing, treatment, quality control, along with logistics and shipping assistance.",
+		image: "/timber-1.jpeg",
 	},
 ];
 
@@ -32,13 +39,14 @@ const Products = ({ setSection }: Props) => {
 		<section id="businessareas" className="py-28 w-full">
 			<div className="mx-auto md:w-3/5">
 				<h1 className="basis-3/5 text-3xl font-bold text-center">
-					Our Products
+					Nature's Finest Selection
 				</h1>
 				<p className="py-5 text-lg">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
-					sed tempora fugit qui quam reprehenderit impedit ipsum? Quae,
-					quas veritatis tempore cum, molestias consequuntur numquam
-					aperiam voluptate, vero facere corporis?
+					"Explore our array of exquisite timber offerings meticulously
+					sourced and crafted by Reliant Forestry. Each product in our
+					repository epitomize quality, reliability, and sustainability.
+					Each piece tells a story of nature's finest craftsmanship, ready
+					to elevate your projects to new heights of excellence."
 				</p>
 			</div>
 

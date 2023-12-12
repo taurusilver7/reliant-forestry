@@ -3,7 +3,6 @@ import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-
 type Props = {
 	setSection: (value: SelectedSection) => void;
 };

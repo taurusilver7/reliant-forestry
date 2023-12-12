@@ -14,24 +14,6 @@ type Props = {
 	setSection: (value: SelectedSection) => void;
 };
 
-const menu = [
-	{
-		name: "Home",
-		url: "#home",
-	},
-	{
-		name: "About Us",
-		url: "#about-us",
-	},
-	{
-		name: "Business Areas",
-		url: "#business-areas",
-	},
-	{
-		name: "Contact Us",
-		url: "#contact-us",
-	},
-];
 
 const Navbar = ({ topPage, section, setSection }: Props) => {
 	const [toggle, setToggle] = useState<boolean>(false);
@@ -62,6 +44,11 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 							/>
 							<NavLink
 								page="Business Areas"
+								section={section}
+								setSection={setSection}
+							/>
+							<NavLink
+								page="Careers"
 								section={section}
 								setSection={setSection}
 							/>
