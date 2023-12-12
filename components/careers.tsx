@@ -49,7 +49,7 @@ const Careers = ({ setSection }: Props) => {
 					<Image
 						className="object-cover rounded-lg"
 						alt="hero"
-						src="/timber-3.jpeg"
+						src="/careers.jpeg"
 						width="500"
 						height="500"
 					/>

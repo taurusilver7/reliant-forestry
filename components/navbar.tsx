@@ -14,7 +14,6 @@ type Props = {
 	setSection: (value: SelectedSection) => void;
 };
 
-
 const Navbar = ({ topPage, section, setSection }: Props) => {
 	const [toggle, setToggle] = useState<boolean>(false);
 	const abvMedScrn = useMediaQuery("(min-width: 1080px)");
@@ -100,6 +99,11 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 						/>
 						<NavLink
 							page="Business Areas"
+							section={section}
+							setSection={setSection}
+						/>
+						<NavLink
+							page="Careers"
 							section={section}
 							setSection={setSection}
 						/>

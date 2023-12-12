@@ -8,25 +8,25 @@ const products: Array<ProductType> = [
 		name: "Southern Yellow Pine",
 		description:
 			"Premiere supplier of Export-quality Southern Yellow Pine logs. #1 in South-East United States.",
-		image: "/forestry.png",
+		image: "/product-1.png",
 	},
 	{
 		name: "Eastern White Pine",
 		description:
 			"Meticulously sourced and crafted Eastern White Pine of Timeless allure and finest Craftmanship.",
-		image: "/timber5.jpeg",
+		image: "/product-2.jpeg",
 	},
 	{
 		name: "Classic Red Oak",
 		description:
 			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
-		image: "/pine.jpg",
+		image: "/product-3.jpg",
 	},
 	{
 		name: "Logistics",
 		description:
 			"Providing International Timber processing, treatment, quality control, along with logistics and shipping assistance.",
-		image: "/timber-1.jpeg",
+		image: "/product-4.jpeg",
 	},
 ];
 
@@ -39,14 +39,14 @@ const Products = ({ setSection }: Props) => {
 		<section id="businessareas" className="py-28 w-full">
 			<div className="mx-auto md:w-3/5">
 				<h1 className="basis-3/5 text-3xl font-bold text-center">
-					Nature's Finest Selection
+					Nature&apos;s Finest Selection
 				</h1>
 				<p className="py-5 text-lg">
-					"Explore our array of exquisite timber offerings meticulously
-					sourced and crafted by Reliant Forestry. Each product in our
-					repository epitomize quality, reliability, and sustainability.
-					Each piece tells a story of nature's finest craftsmanship, ready
-					to elevate your projects to new heights of excellence."
+					Explore our array of exquisite timber, offerings meticulously
+					sourced and crafted. Each product in our repository epitomize
+					quality, reliability, and sustainability.
+					<br /> Each piece tells a story of nature's finest craftsmanship,
+					ready to elevate your projects to new heights of excellence.
 				</p>
 			</div>
 

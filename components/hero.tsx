@@ -20,17 +20,17 @@ const Hero = ({ setSection }: Props) => {
 				/>
 				<div className="z-10 max-w-screen-lg px-4 lg:px-0">
 					<div className="flex flex-col items-center gap-y-6 text-center p-6">
-						<h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">
+						<h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-8xl">
 							Reliant Forestry
 						</h1>
 						<h3 className="text-2xl font-semibold text-white sm:text-3xl lg:text-4xl">
-							International trade at your doorstep
+							Nature&apos;s Finest Timber at your doorstep!
 						</h3>
 
 						<div className="flex text-neutral-100">
 							<a
 								href="mailto:sales@reliantforestry.com"
-								className="-m-1.5 p-1.5 rounded-full border-2 py-2 px-4 text-neutral-200 hover:text-lime-500 ring-offset-gray-700 hover:bg-gray-800/90 ring-orange-500 border-orange-500 bg-none transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:-m-3 sm:text-base"
+								className="-m-1.5 p-1.5 rounded-full border-2 py-2 px-4 text-neutral-200 hover:text-gray-800 ring-offset-gray-700 hover:bg-lime-300 ring-lime-500 border-lime-500 bg-none transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:-m-3 sm:text-base"
 							>
 								Get in touch
 							</a>
