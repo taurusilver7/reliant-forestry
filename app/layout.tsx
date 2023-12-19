@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
-const ubuntu = Ubuntu({
-	subsets: ["latin"],
-	weight: ["300", "400", "500", "700"],
-});
 
 export const metadata: Metadata = {
 	title: "Reliant Forestry",
@@ -34,7 +29,7 @@ export default function RootLayout({
 			style={{ scrollBehavior: "smooth" }}
 			suppressHydrationWarning
 		>
-			<body className={cn(ubuntu.className, "h-full bg-slate-200")}>
+			<body className={cn(inter.className, "h-full bg-slate-200")}>
 				{children}
 			</body>
 		</html>
