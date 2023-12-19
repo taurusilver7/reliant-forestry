@@ -45,7 +45,7 @@ const Products = ({ setSection }: Props) => {
 					Explore our array of exquisite timber, offerings meticulously
 					sourced and crafted. Each product in our repository epitomize
 					quality, reliability, and sustainability.
-					<br /> Each piece tells a story of nature's finest craftsmanship,
+					<br /> Each piece tells a story of nature&apos;s finest craftsmanship,
 					ready to elevate your projects to new heights of excellence.
 				</p>
 			</div>
