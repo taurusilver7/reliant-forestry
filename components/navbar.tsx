@@ -22,7 +22,7 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 	return (
 		<nav id="home">
 			<div
-				className={`${background} z-50 fixed top-0 flex justify-between items-center w-full p-1 px-6 py-4 mb-2`}
+				className={`${background} z-50 fixed top-0 transition-all duration-200 flex justify-between items-center w-full p-1 px-6 py-4 `}
 			>
 				{/* left */}
 				<Logo type={false} />

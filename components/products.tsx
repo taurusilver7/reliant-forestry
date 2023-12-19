@@ -36,21 +36,22 @@ type Props = {
 
 const Products = ({ setSection }: Props) => {
 	return (
-		<section id="businessareas" className="py-28 w-full">
+		<section id="businessareas" className="py-24 w-full">
 			<div className="mx-auto md:w-3/5">
 				<h1 className="basis-3/5 text-3xl font-bold text-center">
 					Nature&apos;s Finest Selection
 				</h1>
-				<p className="py-5 text-lg">
+				<p className="pt-5 pb-2 text-lg">
 					Explore our array of exquisite timber, offerings meticulously
 					sourced and crafted. Each product in our repository epitomize
 					quality, reliability, and sustainability.
-					<br /> Each piece tells a story of nature&apos;s finest craftsmanship,
-					ready to elevate your projects to new heights of excellence.
+					<br /> Each piece tells a story of nature&apos;s finest
+					craftsmanship, ready to elevate your projects to new heights of
+					excellence.
 				</p>
 			</div>
 
-			<div className="mt-10 h-[350px] w-full overflow-x-auto overflow-y-hidden no-scrollbar">
+			<div className="mt-8 h-[350px] w-full overflow-x-auto overflow-y-hidden no-scrollbar">
 				<ul className="w-full whitespace-nowrap justify-between">
 					{products.map(
 						({ name, description, image }: ProductType, index) => (
