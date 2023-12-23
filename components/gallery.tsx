@@ -22,100 +22,146 @@ const Gallery = () => {
 
 				<div className="md:grid md:grid-cols-3 flex flex-col gap-6 mt-8 w-full">
 					<div className="relative hidden lg:inline row-span-2">
+						{/* Section -1 : 5 gallery images */}
 						<Image
-							src="/timber-6.jpeg"
-							alt="gallery"
+							src="/gallery-1.jpeg"
+							alt="gallery-1"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/timber-12.jpg"
-							alt="gallery"
+							src="/gallery-2.jpg"
+							alt="gallery-2"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/timber-12.jpeg"
+							src="/gallery-3.jpeg"
 							alt="gallery"
 							className="gallery-image"
 							fill
+							loading="lazy"
 						/>
 					</div>
 					<div className="lg:hidden relative h-80">
 						<Image
-							src="/timber-12.jpeg"
+							src="/gallery-4.jpg"
 							alt="gallery"
 							className="gallery-image"
 							fill
-						/>
-					</div>
-					<div className="relative h-80 lg:h-96 col-span-2">
-						<Image
-							src="/timber-10.jpeg"
-							alt="gallery"
-							fill
-							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 
+					<div className="relative h-80 lg:h-96 col-span-2">
+						<Image
+							src="/gallery-5.jpeg"
+							alt="gallery"
+							fill
+							className="gallery-image"
+							loading="lazy"
+						/>
+					</div>
+
+					{/* Section - 2 : 3 gallery images */}
+
 					<div className="relative h-80">
 						<Image
-							src="/timber-14.jpg"
-							alt="gallery"
+							src="/gallery-6.jpg"
+							alt="gallery-6"
+							fill
+							className="gallery-image"
+							loading="lazy"
+						/>
+					</div>
+					<div className="relative h-80">
+						<Image
+							src="/gallery-8.jpeg"
+							alt="gallery-7"
+							fill
+							loading="lazy"
+							className="gallery-image"
+						/>
+					</div>
+					<div className="relative h-80">
+						<Image
+							src="/gallery-7.jpg"
+							alt="gallery-8"
+							fill
+							className="gallery-image"
+							loading="lazy"
+						/>
+					</div>
+
+					{/* Section -3 : 4 gallery images */}
+
+					<div className="relative h-80">
+						<Image
+							src="/gallery-9.jpg"
+							alt="gallery-9"
+							loading="lazy"
 							className="gallery-image"
 							fill
 						/>
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/timber-8.jpeg"
-							alt="gallery"
+							src="/gallery-10.jpeg"
+							alt="gallery-10"
 							fill
+							loading="lazy"
 							className="gallery-image"
 						/>
 					</div>
 					<div className="relative hidden lg:inline row-span-2">
 						<Image
-							src="/timber-7.jpeg"
+							src="/gallery-11.jpeg"
 							alt="gallery"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 					<div className="relative col-span-2 h-80">
 						<Image
-							src="/timber-4.jpeg"
+							src="/gallery-12.jpeg"
 							alt="gallery"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/timber-9.jpeg"
-							alt="gallery"
+							src="/gallery-13.jpeg"
+							alt="gallery-13"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/timber-0.jpg"
-							alt="gallery"
+							src="/gallery-15.jpg"
+							alt="gallery-15"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/truck.jpg"
-							alt="gallery"
+							src="/gallery-14.jpg"
+							alt="gallery-14"
 							fill
 							className="gallery-image"
+							loading="lazy"
 						/>
 					</div>
 				</div>

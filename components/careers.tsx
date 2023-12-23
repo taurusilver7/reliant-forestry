@@ -26,23 +26,23 @@ const Careers = ({ setSection }: Props) => {
 						grow with Reliant Forestry as we redefine the timber export
 						industry.
 					</p>
-					<div className="block gap-4 lg:flex justify-center">
+					<div className="block lg:inline-flex justify-center items-center">
 						<a href="mailto:sales@reliantforestry.com">
 							<Button
 								size="sm"
-								className="inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg"
+								className="block lg:flex text-white bg-emerald-500 border-0 my-1 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg"
 							>
 								Get in Touch
 							</Button>
 						</a>
 						<AnchorLink
-							className="font-bold underline mt-2"
+							className="font-bold underline"
 							href={`#${SelectedSection.ContactUs}`}
 						>
 							<Button
 								variant="outline"
 								size="sm"
-								className="ml-4 inline-flex text-gray-700 bg-neutral-200 border-0 py-2 px-6 focus:outline-none hover:bg-neutral-300 rounded text-lg"
+								className="inline-flex text-gray-700 bg-neutral-200 border-0 py-2 px-6 focus:outline-none hover:bg-neutral-300 rounded text-lg"
 							>
 								Leave a message
 							</Button>

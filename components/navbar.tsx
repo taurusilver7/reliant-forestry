@@ -87,9 +87,7 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 
 					{/* Menu Items */}
 					<div className="ml-[35%] flex flex-col gap-10 text-base">
-						{/* {menu.map(({ name, url }) => (
-							<Link href={url}>{name}</Link>
-						))} */}
+						
 
 						<NavLink
 							page="Home"

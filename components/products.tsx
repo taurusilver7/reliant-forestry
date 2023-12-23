@@ -23,10 +23,22 @@ const products: Array<ProductType> = [
 		image: "/product-3.jpg",
 	},
 	{
+		name: "Pristine White Oak",
+		description:
+			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
+		image: "/product-5.jpeg",
+	},
+	{
+		name: "North-American Hardware Lumber",
+		description:
+			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
+		image: "/product-4.jpg",
+	},
+	{
 		name: "Logistics",
 		description:
 			"Providing International Timber processing, treatment, quality control, along with logistics and shipping assistance.",
-		image: "/product-4.jpeg",
+		image: "/product-6.jpeg",
 	},
 ];
 
@@ -42,9 +54,9 @@ const Products = ({ setSection }: Props) => {
 					Nature&apos;s Finest Selection
 				</h1>
 				<p className="pt-5 pb-2 text-lg">
-					Explore our array of exquisite timber, meticulously
-					sourced and crafted. Each product in our repository epitomize
-					quality, reliability, and sustainability.
+					Explore our array of exquisite timber, meticulously sourced and
+					crafted. Each product in our repository epitomize quality,
+					reliability, and sustainability.
 					<br /> Each piece tells a story of nature&apos;s finest
 					craftsmanship, ready to elevate your projects to new heights of
 					excellence.
