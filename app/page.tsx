@@ -3,6 +3,7 @@ import About from "@/components/about";
 import Careers from "@/components/careers";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import Gallery from "@/components/gallery";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import Products from "@/components/products";
@@ -39,6 +40,7 @@ export default function Home() {
 			<div className="flex flex-col items-center justify-center gap-y-8 px-6 mt-28">
 				<About setSection={setSelectedSection} />
 				<Products setSection={setSelectedSection} />
+				<Gallery />
 				<Careers setSection={setSelectedSection} />
 				<Contact setSection={setSelectedSection} />
 				<Footer />
