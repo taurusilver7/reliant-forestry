@@ -42,7 +42,7 @@ const Products = ({ setSection }: Props) => {
 					Nature&apos;s Finest Selection
 				</h1>
 				<p className="pt-5 pb-2 text-lg">
-					Explore our array of exquisite timber, offerings meticulously
+					Explore our array of exquisite timber, meticulously
 					sourced and crafted. Each product in our repository epitomize
 					quality, reliability, and sustainability.
 					<br /> Each piece tells a story of nature&apos;s finest

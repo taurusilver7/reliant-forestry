@@ -40,7 +40,7 @@ const Contact = ({ setSection }: Props) => {
 			<div className="mt-10 justify-between w-auto gap-8 md:flex">
 				{/* address */}
 				<div className="flex flex-col gap-2">
-					<h4 className="font-bold text-3xl md:text-4xl py-1">
+					<h4 className="font-bold text-3xl md:text-4xl">
 						Reliant Forestry
 					</h4>
 					<p className="uppercase underline font-bold">Address:</p>

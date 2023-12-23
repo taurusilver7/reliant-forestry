@@ -17,7 +17,7 @@ const Careers = ({ setSection }: Props) => {
 		>
 			<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 				<div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-					<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+					<h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900">
 						Explore with Us
 						<br className="hidden lg:inline-block" />
 					</h1>
@@ -26,18 +26,22 @@ const Careers = ({ setSection }: Props) => {
 						grow with Reliant Forestry as we redefine the timber export
 						industry.
 					</p>
-					<div className="flex justify-center">
+					<div className="block gap-4 lg:flex justify-center">
 						<a href="mailto:sales@reliantforestry.com">
-							<Button className="inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg">
+							<Button
+								size="sm"
+								className="inline-flex text-white bg-emerald-500 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg"
+							>
 								Get in Touch
 							</Button>
 						</a>
 						<AnchorLink
-							className="font-bold underline"
+							className="font-bold underline mt-2"
 							href={`#${SelectedSection.ContactUs}`}
 						>
 							<Button
 								variant="outline"
+								size="sm"
 								className="ml-4 inline-flex text-gray-700 bg-neutral-200 border-0 py-2 px-6 focus:outline-none hover:bg-neutral-300 rounded text-lg"
 							>
 								Leave a message
@@ -45,13 +49,12 @@ const Careers = ({ setSection }: Props) => {
 						</AnchorLink>
 					</div>
 				</div>
-				<div className="relative lg:max-w-lg w-full saturate-100 hover:saturate-200">
+				<div className="relative lg:max-w-lg w-full h-80 saturate-100 hover:saturate-200">
 					<Image
-						className="object-cover rounded-lg"
+						className="object-cover  rounded-lg"
 						alt="hero"
 						src="/careers.jpeg"
-						width="500"
-						height="500"
+						fill
 					/>
 				</div>
 			</div>

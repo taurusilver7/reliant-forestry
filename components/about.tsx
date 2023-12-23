@@ -25,7 +25,7 @@ const About = ({ setSection }: Props) => {
 					/>
 				</div>
 
-				<div className="flex flex-col items-start lg:w-[50%] pl-12">
+				<div className="flex flex-col items-start lg:w-[50%] px-4 md:pl-12">
 					<div className="relative w-full ">
 						<div className="px-2">
 							<h1 className="basis-3/5 text-3xl font-bold">

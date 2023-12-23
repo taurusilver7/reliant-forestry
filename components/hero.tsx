@@ -12,7 +12,7 @@ const Hero = ({ setSection }: Props) => {
 		<main className="flex h-screen">
 			<div className="relative w-full justify-center flex items-center">
 				<Image
-					src="/hero.jpeg"
+					src="/hero.jpg"
 					fill
 					alt="hero"
 					priority
@@ -24,7 +24,7 @@ const Hero = ({ setSection }: Props) => {
 							Reliant Forestry
 						</h1>
 						<h3 className="text-2xl font-semibold text-white sm:text-3xl lg:text-4xl">
-							Nature&apos;s Finest Timber at your doorstep!
+							Cultivating Growth, Harvesting Success!
 						</h3>
 
 						<div className="flex text-neutral-100">

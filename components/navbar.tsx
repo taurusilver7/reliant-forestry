@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Logo from "./logo";
 import NavLink from "./nav-link";
 import { useState } from "react";
@@ -16,7 +15,7 @@ type Props = {
 
 const Navbar = ({ topPage, section, setSection }: Props) => {
 	const [toggle, setToggle] = useState<boolean>(false);
-	const abvMedScrn = useMediaQuery("(min-width: 1080px)");
+	const abvMedScrn = useMediaQuery("(min-width: 1024px)");
 
 	const background = topPage ? "backdrop-blur" : "bg-gray-800 drop-shadow";
 	return (
@@ -47,6 +46,11 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 								setSection={setSection}
 							/>
 							<NavLink
+								page="Gallery"
+								section={section}
+								setSection={setSection}
+							/>
+							<NavLink
 								page="Careers"
 								section={section}
 								setSection={setSection}
@@ -70,7 +74,7 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 
 			{/* mobile & tablet Menu */}
 			{!abvMedScrn && toggle && (
-				<div className="fixed right-0 bottom-0 z-50 h-full w-[300px] bg-lime-50 drop-shadow-xl">
+				<div className="fixed right-0 bottom-0 z-50 h-full w-[220px] bg-lime-50 drop-shadow-xl">
 					<div className="flex justify-end p-10">
 						{/* Close button */}
 						<Button
@@ -82,7 +86,7 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 					</div>
 
 					{/* Menu Items */}
-					<div className="ml-[33%] flex flex-col gap-10 text-2xl">
+					<div className="ml-[35%] flex flex-col gap-10 text-base">
 						{/* {menu.map(({ name, url }) => (
 							<Link href={url}>{name}</Link>
 						))} */}
@@ -99,6 +103,11 @@ const Navbar = ({ topPage, section, setSection }: Props) => {
 						/>
 						<NavLink
 							page="Business Areas"
+							section={section}
+							setSection={setSection}
+						/>
+						<NavLink
+							page="Gallery"
 							section={section}
 							setSection={setSection}
 						/>
