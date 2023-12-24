@@ -6,8 +6,7 @@ import List from "./list";
 const products: Array<ProductType> = [
 	{
 		name: "Southern Yellow Pine",
-		description:
-			"Premiere supplier of Export-quality Southern Yellow Pine logs. #1 in South-East United States.",
+		description: `Premiere supplier of Export-quality Southern Yellow Pine logs. Ranked #1 in South-East United States.`,
 		image: "/product-1.png",
 	},
 	{
@@ -19,19 +18,19 @@ const products: Array<ProductType> = [
 	{
 		name: "Classic Red Oak",
 		description:
-			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
+			"Elevate you prestige to new heights of excellence with rich Hues of the Classic Red Oaks.",
 		image: "/product-3.jpg",
 	},
 	{
 		name: "Pristine White Oak",
 		description:
-			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
+			"Discover the unparalleled quality of White Oak, renowned for its strength, durability, and exquisite grain patterns.",
 		image: "/product-5.jpeg",
 	},
 	{
 		name: "North-American Hardware Lumber",
 		description:
-			"Elevate you Project to new heights of excellence and quality with rich Hues of the Classic Red Oaks.",
+			"Elevate your creating with Hardware Lumber sourced from pristine forests of North America, a testament of enduring robustness and reliability.",
 		image: "/product-4.jpg",
 	},
 	{
