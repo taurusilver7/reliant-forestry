@@ -55,10 +55,9 @@ const Products = ({ setSection }: Props) => {
 				<p className="pt-5 pb-2 text-lg">
 					Explore our array of exquisite timber, meticulously sourced and
 					crafted. Each product in our repository epitomize quality,
-					reliability, and sustainability.
-					<br /> Each piece tells a story of nature&apos;s finest
-					craftsmanship, ready to elevate your projects to new heights of
-					excellence.
+					reliability, and sustainability. Each piece tells a story of
+					nature&apos;s finest craftsmanship, ready to elevate your
+					projects to new heights of excellence.
 				</p>
 			</div>
 
