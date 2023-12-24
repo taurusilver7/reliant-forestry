@@ -24,6 +24,7 @@ const List = ({ name, description, image }: Props) => {
 				className="object-cover rounded-lg mb-2"
 				src={image}
 				alt={`${name}`}
+				loading="lazy"
 			/>
 		</li>
 	);

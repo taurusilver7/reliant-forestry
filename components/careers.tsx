@@ -55,6 +55,7 @@ const Careers = ({ setSection }: Props) => {
 						alt="hero"
 						src="/careers.jpeg"
 						fill
+						loading="lazy"
 					/>
 				</div>
 			</div>

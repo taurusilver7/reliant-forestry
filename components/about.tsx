@@ -22,6 +22,7 @@ const About = ({ setSection }: Props) => {
 						alt="about"
 						className="object-cover rounded-lg"
 						fill
+						loading='lazy'
 					/>
 				</div>
 
