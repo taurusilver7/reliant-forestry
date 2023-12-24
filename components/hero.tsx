@@ -9,12 +9,13 @@ type Props = {
 
 const Hero = ({ setSection }: Props) => {
 	return (
-		<main className="flex h-screen">
-			<div className="relative w-full justify-center flex items-center">
+		<main className="h-screen">
+			{/* <div className="absolute bottom-0 z-20 h-16 w-full bg-gradient-to-t from-slate-200 to-transparent transition duration-150" /> */}
+			<div className="relative w-full h-screen justify-center flex items-center">
 				<Image
 					src="/hero.jpg"
 					fill
-					alt="hero"
+					alt="hero-banner"
 					priority
 					className="object-cover"
 				/>
