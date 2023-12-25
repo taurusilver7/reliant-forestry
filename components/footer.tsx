@@ -27,8 +27,7 @@ const Footer = () => {
 				<div className="mt-16 basis-1/4 md:mt-0 text-lg">
 					<h4 className="font-bold">Exporting Locations</h4>
 					<p className="mt-2">UAE</p>
-					<p>Australia</p>
-					<p>Singapore</p>
+					<p>Doha (Qatar)</p>
 					<p>India</p>
 					<p>Karachi (Pakistan)</p>
 					<p>Thailand</p>
