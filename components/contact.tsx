@@ -31,8 +31,9 @@ const Contact = ({ setSection }: Props) => {
 				</h1>
 				<p className="my-5 text-lg">
 					Whether you seek premium timber, solutions, partnership inquiries
-					<br />Reach out to Reliant Forestry. Let&apos;s build a sustainable future
-					together.
+					<br />
+					Reach out to Reliant Forestry. Let&apos;s build a sustainable
+					future together.
 				</p>
 			</div>
 
