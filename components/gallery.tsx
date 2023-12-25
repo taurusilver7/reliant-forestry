@@ -82,7 +82,7 @@ const Gallery = () => {
 					</div>
 					<div className="relative h-80">
 						<Image
-							src="/gallery-8.jpeg"
+							src="/gallery-8.jpg"
 							alt="gallery-7"
 							fill
 							loading="lazy"
