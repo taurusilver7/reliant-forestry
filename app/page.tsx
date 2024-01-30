@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/about";
 import Careers from "@/components/careers";
+import Chat from "@/components/chat";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Gallery from "@/components/gallery";
@@ -38,6 +39,7 @@ export default function Home() {
 			/>
 			<Hero setSection={setSelectedSection} />
 			<div className="flex flex-col items-center justify-center gap-y-8 px-6 mt-28">
+				<Chat />
 				<About setSection={setSelectedSection} />
 				<Products setSection={setSelectedSection} />
 				<Gallery />
