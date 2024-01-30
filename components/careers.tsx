@@ -27,7 +27,11 @@ const Careers = ({ setSection }: Props) => {
 						industry.
 					</p>
 					<div className="block lg:inline-flex justify-center items-center">
-						<a href="mailto:sales@reliantforestry.com">
+						<a
+							target="_blank"
+							href="https://direct.lc.chat/17064096/"
+							rel="nofollow"
+						>
 							<Button
 								size="sm"
 								className="block lg:flex text-white bg-emerald-500 border-0 my-1 py-2 px-6 focus:outline-none hover:bg-emerald-600 rounded text-lg"
