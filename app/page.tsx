@@ -39,7 +39,7 @@ export default function Home() {
 			/>
 			<Hero setSection={setSelectedSection} />
 			<div className="flex flex-col items-center justify-center gap-y-8 px-6 mt-28">
-				<Chat />
+				{/* <Chat /> */}
 				<About setSection={setSelectedSection} />
 				<Products setSection={setSelectedSection} />
 				<Gallery />
