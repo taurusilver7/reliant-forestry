@@ -47,9 +47,9 @@ const Contact = ({ setSection }: Props) => {
 					<p className="uppercase underline font-bold">Address:</p>
 					<div className="flex flex-col text-xl items-start justify-center">
 						<p className="font-medium">Reliant Forestry</p>
-						<p>125, Hawthorne Landing Dr,</p>
+						<p>125 Hawthorne Landing Dr,</p>
 						<p>Goose Creek,</p>
-						<p>South Carolina, USA - 29455</p>
+						<p>South Carolina, USA - 29445</p>
 						<br />
 						<p>sales@reliantforestry.com</p>
 						<p>+1 (662) 408-7347</p>
